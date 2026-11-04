@@ -1,0 +1,10 @@
+{
+  "name": "daily-rss-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent RSS news backend and embeddable DSH dashboard",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "better-sqlite3": "^11.8.1", "express": "^4.21.2", "rss-parser": "^3.13.0" }
+}
